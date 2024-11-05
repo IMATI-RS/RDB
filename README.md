@@ -2,8 +2,6 @@
 MATLAB scripts for computing Remote Derived Bathymetry (RDB) from multispectral optical imagery, specifically designed for shallow coastal and riverine environments.
 
 # Overview
-/* The MATLAB scripts here provided implement the Remote Derived Bathymetry (RDB) procedure described in *Bozzano et al. (2024)*.  */
-
 The proposed methodology builds upon the band ratio technique of *Stumpf et al. (2003)* (https://doi.org/10.4319/lo.2003.48.1_part_2.0547) and enables bathymetry retrieval from multispectral optical imagery in shallow water areas, such as coastal or riverine environments. This approach leverages the correlation between water depth and the ratio of log-transformed reflectance values from appropriate spectral bands, using in situ ground truth bathymetric data for model calibration and validation.
 
 -	The script **RDB_BandRatio_Lin.m** aims to faithfully replicate the method proposed by *Stumpf et al. (2003)* and utilizes a linear expression to correlate water depth with the value of the spectral band ratio.
