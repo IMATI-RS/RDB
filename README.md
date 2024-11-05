@@ -1,5 +1,5 @@
 # RDB
-%MATLAB scripts for computing Remote Derived Bathymetry (RDB) from multispectral optical imagery, specifically designed for shallow coastal and riverine environments.
+--MATLAB scripts for computing Remote Derived Bathymetry (RDB) from multispectral optical imagery, specifically designed for shallow coastal and riverine environments.
 
 # Overview
 The MATLAB scripts here provided implement the Remote Derived Bathymetry (RDB) procedure described in *Bozzano et al. (2024)*.
