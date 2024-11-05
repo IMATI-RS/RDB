@@ -22,7 +22,7 @@ All user-specified inputs are located in the “INPUT DATA AND PARAMETERS” sec
 Additionally, users can also specify:
 -	A series of parameters to filter the ground truth bathymetric points upstream (e.g., minimum and maximum water depth values).
 -	The method to be used for resampling the ground truth bathymetric points (options include "median" and "mean").
--	The percentage of available ground truth bathymetric points to be used for model calibration; the remaining points will automatically be used for model validation.
+-	The percentage of available ground truth bathymetric points to be randomly selected and used for model calibration; the remaining points will automatically be used for model validation.
 -	The spectral band ratio to be considered (options include "blue/red" and "blue/green").
 
 The scripts include additional comments to help users understand each step in the process.
