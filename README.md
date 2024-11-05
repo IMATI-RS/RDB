@@ -9,7 +9,7 @@ The proposed methodology builds upon the band ratio technique of *Stumpf et al. 
 -	The script **RDB_BandRatio_Lin.m** aims to faithfully replicate the method proposed by *Stumpf et al. (2003)* and utilizes a linear expression to correlate water depth with the value of the spectral band ratio.
 -	In contrast, the script **RDB_BandRatio_Exp.m** uses an exponential regression model, which can prove more flexible in fitting the observed data trends depending on the application context.
 
-Both scripts also include a preliminary preprocessing phase, which enables the resampling of high-density ground truth bathymetric points to align with the spatial resolution of the multispectral imagery. This prevents multiple depth values from being assigned to the same pixel.
+Both scripts also include a preliminary preprocessing phase, which enables the resampling of high-density ground truth bathymetric points to align with the spatial resolution of the multispectral imagery. This prevents multiple depth values from being assigned to a single pixel.
 
 # Requirements
 MATLAB (Curve Fitting, Map and Statistics Toolboxes) is required in order to run the scripts.
